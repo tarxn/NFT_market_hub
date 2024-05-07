@@ -1,19 +1,49 @@
-Copyright 2022 London App Brewery LTD (www.appbrewery.com)
+# NFT Market Hub aka OpenD
 
-The code in this tutorial project is licended under the Apache License, Version 2.0 (the "License");
-you may not use this project except in compliance with the License.
-You may obtain a copy of the License at
+OpenD is a decentralized NFT (Non-Fungible Token) market hub where users can discover, buy, sell, and mint NFTs with ease. Built on blockchain technology, OpenD provides a secure and transparent platform for creators and collectors to interact and exchange digital assets.
+Please note that this is the clone of ![OpenSea](https://opensea.io/) 
 
-    http://www.apache.org/licenses/LICENSE-2.0
+## Demo
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+### 1. Home Page
+The home page welcomes users to OpenD and provides an overview of featured NFT collections, trending artworks, and upcoming events. Users can explore various categories and collections or search for specific NFTs.
 
-Here is the TL;DR version of the above licence:
-https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
+![Home Page](/images/home-page.png)
+
+### 2. My NFTs
+In the My NFTs section, users can view their owned NFTs, track their collections, and manage their digital assets. Users have full control over their NFTs, including the ability to transfer, sell, or showcase them in their virtual galleries.
+
+![My NFTs](/images/my-nfts.png)
+
+### 3. Discover
+Discover showcases a curated selection of NFTs from emerging and established artists. Users can browse through different categories, explore trending collections, and discover unique digital artworks. OpenD regularly updates its Discover section to highlight new and noteworthy NFTs.
+
+![Discover](/images/discover.png)
+
+### 4. Minting
+Minting allows creators to tokenize their digital creations and transform them into NFTs. By minting NFTs on OpenD, creators can establish ownership, authenticity, and scarcity for their digital assets. The minting process is intuitive and streamlined, making it accessible to creators of all skill levels.
+
+![Minting](/images/minting.png)
+
+### 5. Minted
+Minted showcases recently minted NFTs and highlights the latest additions to the OpenD marketplace. Users can discover fresh content, support emerging artists, and stay up-to-date with the latest trends in the NFT space.
+
+![Minted](/images/minted.png)
+
+### 6. Wallet
+The Wallet section provides users with a secure and convenient way to manage their digital assets. Users can connect their wallets, view their NFT holdings, and perform transactions directly from the OpenD platform. OpenD supports various blockchain networks and compatible wallet providers.
+
+![Wallet](/images/wallet.png)
+
+## Get Started
+
+To get started with OpenD, simply visit [opend.io](https://opend.io) and sign up for an account. Explore the marketplace, discover unique NFTs, and start collecting digital art today!
+
+## Contact Us
+
+If you have any questions, feedback, or suggestions, feel free to reach out to us at [support@opend.io](mailto:support@opend.io). We'd love to hear from you!
+
+OpenD - Unlock the Potential of Digital Ownership.
 
 # To Install and Run the Project
 
@@ -31,70 +61,12 @@ npm start
 
 3. Deploy canisters
 
+to get principal
+dfx identity get-principal
 ```
 dfx deploy --argument='("CryptoDunks #123", principal "iii2z-iuk7j-dxzwn-f4sqf-x47s7-ix4tj-e26hn-yxm5j-ynttt-zpi5a-cae", (vec {137; 80; 78; 71; 13; 10; 26; 10; 0; 0; 0; 13; 73; 72; 68; 82; 0; 0; 0; 10; 0; 0; 0; 10; 8; 6; 0; 0; 0; 141; 50; 207; 189; 0; 0; 0; 1; 115; 82; 71; 66; 0; 174; 206; 28; 233; 0; 0; 0; 68; 101; 88; 73; 102; 77; 77; 0; 42; 0; 0; 0; 8; 0; 1; 135; 105; 0; 4; 0; 0; 0; 1; 0; 0; 0; 26; 0; 0; 0; 0; 0; 3; 160; 1; 0; 3; 0; 0; 0; 1; 0; 1; 0; 0; 160; 2; 0; 4; 0; 0; 0; 1; 0; 0; 0; 10; 160; 3; 0; 4; 0; 0; 0; 1; 0; 0; 0; 10; 0; 0; 0; 0; 59; 120; 184; 245; 0; 0; 0; 113; 73; 68; 65; 84; 24; 25; 133; 143; 203; 13; 128; 48; 12; 67; 147; 94; 97; 30; 24; 0; 198; 134; 1; 96; 30; 56; 151; 56; 212; 85; 68; 17; 88; 106; 243; 241; 235; 39; 42; 183; 114; 137; 12; 106; 73; 236; 105; 98; 227; 152; 6; 193; 42; 114; 40; 214; 126; 50; 52; 8; 74; 183; 108; 158; 159; 243; 40; 253; 186; 75; 122; 131; 64; 0; 160; 192; 168; 109; 241; 47; 244; 154; 152; 112; 237; 159; 252; 105; 64; 95; 48; 61; 12; 3; 61; 167; 244; 38; 33; 43; 148; 96; 3; 71; 8; 102; 4; 43; 140; 164; 168; 250; 23; 219; 242; 38; 84; 91; 18; 112; 63; 0; 0; 0; 0; 73; 69; 78; 68; 174; 66; 96; 130;}))'
 ```
 
-4. Head to localhost
-
-http://localhost:8080/
-
-# Minter Else HTML
-
-```
- <div className="minter-container">
-        <h3 className="Typography-root makeStyles-title-99 Typography-h3 form-Typography-gutterBottom">
-          Minted!
-        </h3>
-        <div className="horizontal-center">
-        </div>
-      </div>
-
-```
-
-# Loader HTML
-
-```
-<div className="lds-ellipsis">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-```
-
-# Button HTML
-
-```
-<div className="Chip-root makeStyles-chipBlue-108 Chip-clickable">
-            <span
-              onClick={}
-              className="form-Chip-label"
-            >
-              Sell
-            </span>
-            </div>
-```
-
-# Price Input HTML
-
-```
-<input
-        placeholder="Price in DANG"
-        type="number"
-        className="price-input"
-        value={}
-        onChange={}
-      />
-```
-
-# Price Label HTML
-
-```
-<div className="disButtonBase-root disChip-root makeStyles-price-23 disChip-outlined">
-          <span className="disChip-label">23 DANG</span>
-        </div>
-```
 
 # Creating NFT for Testing
 
