@@ -35,15 +35,7 @@ The Wallet section provides users with a secure and convenient way to manage the
 
 ![Wallet](/images/wallet.png)
 
-## Get Started
-
-To get started with OpenD, simply visit [opend.io](https://opend.io) and sign up for an account. Explore the marketplace, discover unique NFTs, and start collecting digital art today!
-
-## Contact Us
-
-If you have any questions, feedback, or suggestions, feel free to reach out to us at [support@opend.io](mailto:support@opend.io). We'd love to hear from you!
-
-OpenD - Unlock the Potential of Digital Ownership.
+----------------------------------------
 
 # To Install and Run the Project
 
