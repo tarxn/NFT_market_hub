@@ -8,32 +8,32 @@ Please note that this is the clone of [OpenSea](https://opensea.io/)
 ### 1. Home Page
 The home page welcomes users to OpenD and provides an overview of featured NFT collections, trending artworks, and upcoming events. Users can explore various categories and collections or search for specific NFTs.
 
-![Home Page](/images/home-page.png)
+![Home Page](/src/opend_assets/assets/home-page.png)
 
 ### 2. My NFTs
 In the My NFTs section, users can view their owned NFTs, track their collections, and manage their digital assets. Users have full control over their NFTs, including the ability to transfer, sell, or showcase them in their virtual galleries.
 
-![My NFTs](/images/my-nfts.png)
+![My NFTs](/src/opend_assets/assets/my-nfts.png)
 
 ### 3. Discover
 Discover showcases a curated selection of NFTs from emerging and established artists. Users can browse through different categories, explore trending collections, and discover unique digital artworks. OpenD regularly updates its Discover section to highlight new and noteworthy NFTs.
 
-![Discover](/images/discover.png)
+![Discover](/src/opend_assets/assets/discover.png)
 
 ### 4. Minting
 Minting allows creators to tokenize their digital creations and transform them into NFTs. By minting NFTs on OpenD, creators can establish ownership, authenticity, and scarcity for their digital assets. The minting process is intuitive and streamlined, making it accessible to creators of all skill levels.
 
-![Minting](/images/minting.png)
+![Minting](/src/opend_assets/assets/minting.png)
 
 ### 5. Minted
 Minted showcases recently minted NFTs and highlights the latest additions to the OpenD marketplace. Users can discover fresh content, support emerging artists, and stay up-to-date with the latest trends in the NFT space.
 
-![Minted](/images/minted.png)
+![Minted](/src/opend_assets/assets/minted.png)
 
 ### 6. Wallet
 The Wallet section provides users with a secure and convenient way to manage their digital assets. Users can connect their wallets, view their NFT holdings, and perform transactions directly from the OpenD platform. OpenD supports various blockchain networks and compatible wallet providers.
 
-![Wallet](/images/wallet.png)
+![Wallet](/src/opend_assets/assets/wallet.png)
 
 ----------------------------------------
 
