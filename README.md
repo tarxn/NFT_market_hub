@@ -1,7 +1,7 @@
 # NFT Market Hub aka OpenD
 
 OpenD is a decentralized NFT (Non-Fungible Token) market hub where users can discover, buy, sell, and mint NFTs with ease. Built on blockchain technology, OpenD provides a secure and transparent platform for creators and collectors to interact and exchange digital assets.
-Please note that this is the clone of ![OpenSea](https://opensea.io/) 
+Please note that this is the clone of [OpenSea](https://opensea.io/) 
 
 ## Demo
 
